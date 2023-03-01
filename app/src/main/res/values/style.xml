@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application Theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <!-- Customise your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+
+    <style name="h1_style">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+
+        <item name="android:fontFamily">@font/otr</item>
+
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">0.0</item>
+        <item name="android:shadowRadius">7.0</item>
+
+        <item name="android:textSize">@dimen/box_text_size</item>
+    </style>
+
+    <style name="h2_style">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textAlignment">center</item>
+
+        <item name="android:fontFamily">@font/basment_grotesque</item>
+
+        <item name="android:textColor">@color/orange</item>
+
+        <item name="android:textSize">@dimen/box_text_size</item>
+    </style>
+</resources>
